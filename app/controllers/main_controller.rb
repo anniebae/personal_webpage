@@ -5,9 +5,6 @@ class MainController < ApplicationController
   def about
   end
 
-  def projects
-  end
-
   def github
   end
 
@@ -15,5 +12,8 @@ class MainController < ApplicationController
   end
 
   def photography
+  end
+
+  def contacts
   end
 end
