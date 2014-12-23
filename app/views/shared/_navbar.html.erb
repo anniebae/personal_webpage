@@ -1,6 +1,6 @@
 <div class="container">
 
-  <a href="/"><%= image_tag 'anniebae_logo.png', :class => "anniebae" %></a>
+  <a href="/"><%= image_tag 'anniebae.png', :class => "anniebae" %></a>
   <nav class="navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -27,7 +27,7 @@
         </li>
         <li><%= link_to "GitHub", github_path, method: :get %></li>
         <li><%= link_to "Resume", resume_path, method: :get %></li>
-        <li><a href="http://abaebae.blogspot.com/" target="_blank">Photography</a></li>
+        <li><%= link_to "Photography", photography_path, method: :get %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </nav>

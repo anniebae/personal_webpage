@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 gem 'pry-rails'
 
 gem "twitter-bootstrap-rails"
+gem 'font-awesome-sass', '~> 4.2.0'
+
+gem 'rails_12factor'
