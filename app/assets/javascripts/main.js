@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('li').hover( 
+  $('.menu-item').hover( 
     function() { $(this).data('bounce', true); bounce($(this));}, 
     function() { $(this).data('bounce', false);
   });
