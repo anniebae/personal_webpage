@@ -1,5 +1,5 @@
 body {
-
+  background-color: white;
 }
 
 .anniebae {
@@ -40,6 +40,9 @@ body {
   text-decoration: underline;
 }
 
+.container {
+  background-color: white;
+}
 
 .table-container {
   padding-left: 16%;
@@ -51,7 +54,8 @@ body {
 }
 
 #chevron-arrows {
-  width: 100%;
+  width: 120%;
+  margin-left: -20%;
 }
 
 .photography {
