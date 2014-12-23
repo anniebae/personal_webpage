@@ -50,6 +50,9 @@ body {
   left: 42%;
 }
 
+#chevron-arrows {
+  width: 100%;
+}
 
 .photography {
   height: 60%;
