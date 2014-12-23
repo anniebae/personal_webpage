@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
+//= require jquery-ui/effect-bounce
 //= require twitter/bootstrap
 //= require bootstrap.min
 //= require turbolinks

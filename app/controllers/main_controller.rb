@@ -5,7 +5,7 @@ class MainController < ApplicationController
   def about
   end
 
-  def github
+  def projects
   end
 
   def resume
