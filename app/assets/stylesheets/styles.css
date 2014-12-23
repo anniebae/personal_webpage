@@ -2,18 +2,35 @@ body {
   background-color: white;
 }
 
-li {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+.grey-square {
+  height: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
 
 .anniebae {
   height: 80px;
   width: 80px;
-  margin-left: 48%;
+  margin-left: 46%;
+}
+
+.myface {
+  height: 200px;
+}
+
+#index-div {
+  text-align: center;
+}
+
+#menu-item {
+  padding-right: 30px;
 }
 
 .navbar .navbar-nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
   display: inline-block;
   float: none;
   vertical-align: top;
@@ -39,9 +56,13 @@ li {
 
 .navbar-default .navbar-nav > li > a {
   color: black;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  transition: opacity 0.2s 1s ease;
   text-decoration: underline;
 }
 
