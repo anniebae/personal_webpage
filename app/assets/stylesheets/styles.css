@@ -41,6 +41,7 @@ li {
   color: black;
 }
 .navbar-default .navbar-nav > li > a:hover {
+  transition: opacity 0.2s 1s ease;
   text-decoration: underline;
 }
 
@@ -57,9 +58,15 @@ li {
   left: 42%;
 }
 
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
+}
+
 #chevron-arrows {
   width: 120%;
   margin-left: -20%;
+  margin-top: 25%;
 }
 
 .photography {
