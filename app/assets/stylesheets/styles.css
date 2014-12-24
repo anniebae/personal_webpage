@@ -2,6 +2,12 @@ body {
   background-color: white;
 }
 
+.about-me {
+  width: 32%;
+  margin-left: 47%;
+  margin-top: -15%;
+}
+
 .grey-square {
   height: 10px;
   padding-left: 20px;
@@ -19,9 +25,17 @@ body {
   height: 200px;
 }
 
-#index-div {
+#myphoto {
+  margin-left: 20%;
+}
+
+#three-descriptions {
   text-align: center;
   margin-top: 5%;
+}
+
+#myphoto-withpara {
+  margin-top: 3%;
 }
 
 #menu-item {
