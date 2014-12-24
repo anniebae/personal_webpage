@@ -110,6 +110,10 @@ ul {
   list-style-type: none;
 }
 
+#contacts {
+  padding-top: 6%;
+}
+
 .contacts-ul {
   padding-left: 42%; 
 }
