@@ -105,11 +105,11 @@ body {
   width: 80%;
 }
 
-#caption {
+/*#caption {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-}
+}*/
 
 a {
   color: black;
@@ -143,4 +143,19 @@ ul {
 .contacts-github {
   height: 41px;
   padding-left: 5px;
+}
+
+.camera {
+  width: 4%;
+  margin-left: 48%;
+  margin-top: 1%;
+
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.camera:hover {
+  opacity: 0.5;
 }
