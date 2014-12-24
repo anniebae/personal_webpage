@@ -11,6 +11,6 @@ class MainController < ApplicationController
   def photography
   end
 
-  def contacts
+  def contact
   end
 end

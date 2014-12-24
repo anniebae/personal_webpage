@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   get '/projects' => "main#projects"
   get '/resume' => "main#resume"
   get '/photography' => "main#photography"
-  get '/contacts' => "main#contacts"
+  get '/contact' => "main#contact"
 
 end
