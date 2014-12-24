@@ -95,6 +95,14 @@ body {
   width: 100%;
 }
 
+.project-img {
+  opacity: 1;
+}
+
+.project-img:hover {
+  opacity: 0.5;
+}
+
 
 .carousel-indicators {
   left: 42%;
@@ -115,12 +123,6 @@ body {
   height: 50%;
   width: 80%;
 }
-
-/*#caption {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}*/
 
 a {
   color: black;
@@ -170,4 +172,3 @@ ul {
 .camera:hover {
   opacity: 0.5;
 }
-
