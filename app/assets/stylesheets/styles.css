@@ -89,6 +89,7 @@ body {
   margin-top: 15%;
   width: 80%;
   margin-left: 10%;
+  padding-bottom: 5%;
 }
 
 .project-img {
@@ -97,12 +98,23 @@ body {
 
 .project-img {
   opacity: 1;
+  border-radius: 25px;
 }
 
 .project-img:hover {
   opacity: 0.5;
 }
 
+
+.restaurant {
+  position: relative
+}
+
+.restaurant-txt {
+  display: none;
+  z-index: 999;
+  position: absolute;
+}
 
 .carousel-indicators {
   left: 42%;

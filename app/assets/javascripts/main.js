@@ -13,6 +13,12 @@ $(document).ready(function(){
     });
   });
 
+  $('.restaurant').hover(function(){
+    $('.restaurant-txt', this).stop(true, true).slideDown("normal");
+  }, function(){
+    $('.restaurant-txt', this).stop(true, true).hide();
+  });
+
 
   $('.menu-item').hover( 
     function() { $(this).data('bounce', true); bounce($(this));}, 
