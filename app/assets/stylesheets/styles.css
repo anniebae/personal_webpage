@@ -102,7 +102,7 @@ body {
 }
 
 .project-img:hover {
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 
@@ -111,10 +111,21 @@ body {
 }
 
 .restaurant-txt {
-  display: none;
-  z-index: 999;
   position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 15%;
 }
+
+.restaurant:hover .restaurant-txt {
+  display: block;
+}
+
+
 
 .carousel-indicators {
   left: 42%;
