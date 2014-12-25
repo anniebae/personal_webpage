@@ -13,10 +13,10 @@ $(document).ready(function(){
     });
   });
 
-  $('.restaurant').hover(function(){
-    $('.restaurant-txt', this).stop(true, true).slideDown("normal");
+  $('.project-photo').hover(function(){
+    $('.project-caption', this).stop(true, true).slideDown("normal");
   }, function(){
-    $('.restaurant-txt', this).stop(true, true).hide();
+    $('.project-caption', this).stop(true, true).hide();
   });
 
 
