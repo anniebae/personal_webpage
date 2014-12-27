@@ -127,6 +127,26 @@ body {
   margin-top: 15%;
 }
 
+.resume-img {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.resume-img:hover {
+  opacity: 0.5;
+}
+
+#resume-info {
+  margin-top: 20%;
+}
+
+#resume-button {
+  margin-left: 46.5%;
+  padding-top: 1%;
+}
+
+
+
 
 .carousel-indicators {
   left: 42%;
