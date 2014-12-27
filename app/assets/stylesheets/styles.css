@@ -74,7 +74,7 @@ body {
   color: black;
 }
 .navbar-default .navbar-nav > li > a:hover {
-/*  text-decoration: underline;*/
+  color: lightgrey;
 }
 
 .container {
@@ -137,7 +137,7 @@ body {
 }
 
 #resume-info {
-  margin-top: 20%;
+  margin-top: 200px;
 }
 
 #resume-button {
