@@ -74,6 +74,7 @@ body {
   color: black;
 }
 .navbar-default .navbar-nav > li > a:hover {
+  text-decoration: underline;
   color: lightgrey;
 }
 
@@ -179,11 +180,19 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: black;
+  color: lightgrey;
 }
 
 ul {
   list-style-type: none;
+}
+
+.contacts-wrapper {
+  margin: 20%;
+}
+
+.contacts-table {
+  margin: 0 auto;
 }
 
 #contacts {
