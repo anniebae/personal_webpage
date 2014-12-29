@@ -6,8 +6,12 @@ h3 {
   font-weight: 200;
 }
 
+.index-wrapper {
+  margin: 20%;
+}
+
 .about-wrapper {
-  margin: 15%;
+  margin-top: 7%;
 }
 
 .about-table {
@@ -43,7 +47,6 @@ h3 {
 
 #three-descriptions {
   text-align: center;
-  margin-top: 5%;
 }
 
 #myphoto-withpara {
