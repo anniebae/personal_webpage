@@ -112,9 +112,7 @@ h3 {
 
 .project-img {
   width: 100%;
-}
-
-.project-img {
+  height: 320px;
   opacity: 1;
   border-radius: 7px;
 }
