@@ -2,8 +2,8 @@ $(document).ready(function(){
 
   $('.anniebae').mouseenter(function(){
     $(this).animate({
-      height: "90px",
-      width: "90px"
+      height: "85px",
+      width: "85px"
     });
   });
   $('.anniebae').mouseleave(function(){

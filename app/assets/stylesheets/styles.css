@@ -6,10 +6,6 @@ h3 {
   font-weight: 200;
 }
 
-.index-wrapper {
-  margin: 20%;
-}
-
 .about-wrapper {
   margin-top: 7%;
 }
@@ -32,23 +28,18 @@ h3 {
 }
 
 
+.backdrop {
+  width: 100%;
+}
+
 .anniebae {
   height: 80px;
   width: 80px;
   margin-left: 46%;
+  margin-top: 1%;
+  margin-bottom: 1%
 }
 
-.myface {
-  height: 200px;
-}
-
-#three-descriptions {
-  text-align: center;
-}
-
-#myphoto-withpara {
-  margin-top: 3%;
-}
 
 #menu-item {
   padding-right: 30px;
@@ -73,13 +64,14 @@ h3 {
   left: 0;
   width: 100%;
   height: 150px;
-  padding-top: 30px;
   z-index: 1;
 }
 
 .navbar {
   background-color: white;
   border-color: white;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .navbar-default .navbar-nav > li > a {
