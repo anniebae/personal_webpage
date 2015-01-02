@@ -86,6 +86,9 @@ h3 {
   color: lightgrey;
 }
 
+.navbar-toggle {
+  margin-right: 45%;
+}
 
 .table-container {
   padding-left: 16%;
