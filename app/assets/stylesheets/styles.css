@@ -150,8 +150,8 @@ h3 {
 }
 
 .resume-img {
-  width: 20%;
-  margin-left: 40%;
+  width: 60%;
+  margin-left: 18%;
 }
 
 .resume-img:hover {
@@ -160,10 +160,11 @@ h3 {
 
 #resume-info {
   margin-top: 200px;
+  margin-bottom: 50px;
 }
 
 #resume-button {
-  margin-left: 46.5%;
+  margin-left: 43%;
   padding-top: 1%;
 }
 
