@@ -45,3 +45,5 @@ gem 'rails_12factor'
 gem 'jquery-ui-rails'
 gem 'mail_form'
 gem 'simple_form'
+
+ruby '2.1.2'
